@@ -1,1 +1,1 @@
-export * from './app/library/library.module';
+export * from './app/app.module';
