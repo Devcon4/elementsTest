@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/ng-packagr/package.schema.json",
-  "name": "elements-test",
+  "name": "@devyn/elements-test",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
