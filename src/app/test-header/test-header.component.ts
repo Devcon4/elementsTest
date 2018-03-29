@@ -11,7 +11,7 @@ export class TestHeaderComponent implements OnInit {
 
   constructor(injector: Injector) {
     const NgElementConstructor = createCustomElement(TestHeaderComponent, {injector});
-    customElements.define('hello-world', NgElementConstructor);
+    customElements.define('test-header', NgElementConstructor);
   }
   ngOnInit() {
   }

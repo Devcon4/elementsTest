@@ -18,7 +18,7 @@ AppComponent.ctorParameters = function () { return []; };
 var TestHeaderComponent = /** @class */ (function () {
     function TestHeaderComponent(injector) {
         var NgElementConstructor = createCustomElement(TestHeaderComponent, { injector: injector });
-        customElements.define('hello-world', NgElementConstructor);
+        customElements.define('test-header', NgElementConstructor);
     }
     TestHeaderComponent.prototype.ngOnInit = function () {
     };

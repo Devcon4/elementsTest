@@ -49,7 +49,7 @@ class TestHeaderComponent {
      */
     constructor(injector) {
         const /** @type {?} */ NgElementConstructor = createCustomElement(TestHeaderComponent, { injector });
-        customElements.define('hello-world', NgElementConstructor);
+        customElements.define('test-header', NgElementConstructor);
     }
     /**
      * @return {?}
