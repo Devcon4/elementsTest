@@ -61,9 +61,9 @@ TestHeaderComponent.decorators = [
     { type: Component, args: [{
                 selector: 'app-test-header',
                 template: `<h1>
-  <ng-content></ng-content>
+  Test Header!
 </h1>`,
-                styles: [`h1{color:#161616}`]
+                styles: [`h1{color:#ce6339}`]
             },] },
 ];
 /** @nocollapse */
@@ -108,4 +108,4 @@ AppModule.ctorParameters = () => [];
  */
 
 export { AppModule, AppComponent as ɵa, TestHeaderComponent as ɵb };
-//# sourceMappingURL=elements-test.js.map
+//# sourceMappingURL=devyn-elements-test.js.map

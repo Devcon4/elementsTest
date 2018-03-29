@@ -1,9 +1,8 @@
 {
   "$schema": "./node_modules/ng-packagr/package.schema.json",
-  "name": "elements-test",
+  "name": "devyn-elements-test",
   "version": "0.0.0",
   "license": "MIT",
-  "private": true,
   "devDependencies": {
     "@angular/animations": "6.0.0-rc.0",
     "@angular/cli": "1.7.3",
@@ -39,11 +38,11 @@
     "typescript": "^2.7.2",
     "zone.js": "^0.8.19"
   },
-  "main": "bundles/elements-test.umd.js",
-  "module": "esm5/elements-test.js",
-  "es2015": "esm2015/elements-test.js",
-  "typings": "elements-test.d.ts",
-  "metadata": "elements-test.metadata.json",
+  "main": "bundles/devyn-elements-test.umd.js",
+  "module": "esm5/devyn-elements-test.js",
+  "es2015": "esm2015/devyn-elements-test.js",
+  "typings": "devyn-elements-test.d.ts",
+  "metadata": "devyn-elements-test.metadata.json",
   "dependencies": {
     "tslib": "^1.9.0"
   }
